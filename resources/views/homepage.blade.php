@@ -7,10 +7,10 @@
 	
 </head>
 <body>
+
 	<div id="container"></div>
 	<header>
-		<h1>is larapro</h1>
-		<span>my awesome site</span>
+		@include('askodsheader')
 	</header>
 	<div class="main-content">
 	<nav>
