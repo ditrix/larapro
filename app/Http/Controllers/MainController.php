@@ -11,8 +11,8 @@ class MainController extends Controller
     	return view("main");
     }
 
-    public function policy(){
-    	return view("policy");
+    public function contacts(){
+    	return view("contacts");
     }
 
     public function about(){
