@@ -11,5 +11,10 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
+    public $parentView;
+
+    public function __construct(){
+    	$this->parentView = 'layout';
+    }
     
 }

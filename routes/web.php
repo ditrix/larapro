@@ -11,10 +11,19 @@
 |
 */
 
-Route::get('/', function () { return view('homepage');});
-Route::get('/mobile', function () { return view('mobile');});
+//Route::get('/', function () { return view('home');});
+//Route::get('/mobile', function () { return view('mobile');});
 
 
-//Route::get('/', 'MainController@index');
-Route::get('/policy', 'MainController@policy');
+Route::get('/', 'MainController@index');
+Route::get('/contacts', 'MainController@contacts');
 Route::get('/about', 'MainController@about');
+
+Auth::routes();
+Route::get('/logout', 'AuthController@logout');
+
+Route::get('/users', 'UserController@index');
+Route::put('/users', 'UserController@save');
+Route::get('/users/{user}/edit', 'UserController@input');
+Route::get('/users/{user}/delete', 'UserController@destroy');
+
