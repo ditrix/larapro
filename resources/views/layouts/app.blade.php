@@ -9,7 +9,7 @@
 <div id="container">
 	<!-- header -->
   <header>
- <!--    @include('askodsheader') -->
+    @include('askodsheader') 
     <nav>
       <ul>
         <?php $path = request()->path(); ?>

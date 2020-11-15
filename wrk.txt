@@ -1,0 +1,2 @@
+раскидали лейаут и вью
+https://laravel.ru/docs/v5/quickstart#%D0%B7%D0%B0%D0%B3%D0%BB%D1%83%D1%88%D0%BA%D0%B8  в помощь

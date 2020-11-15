@@ -1,4 +1,6 @@
-@extends(request()->route()->getController()->parentView)
+{{-- @extends(request()->route()->getController()->parentView) --}}
+@extends('layouts.app')
+
 
 @section("title","Контакты")
 
